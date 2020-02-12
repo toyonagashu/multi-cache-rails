@@ -21,5 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'pry'
-  spec.add_dependency 'railties', '< 5.1', '~> 4.2'
+  spec.add_development_dependency 'appraisal'
+  spec.add_dependency 'railties'
 end
