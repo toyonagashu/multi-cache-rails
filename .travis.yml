@@ -6,3 +6,7 @@ rvm:
 - 2.4
 - 2.5.5
 - 2.6
+
+before_install:
+  # Install latest 1.x and 2.x bundler for Avoid GemNotFoundException error.
+  - gem install bundler -v 1.17.3
