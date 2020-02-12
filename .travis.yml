@@ -9,5 +9,5 @@ rvm:
 
 before_install:
   # - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
-  - gem install -v 1.17.3 bundler --no-rdoc --no-ri
+  - gem install -v 1.17.3 bundler
   - bundle _1.17.3_ install
